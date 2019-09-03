@@ -13,6 +13,14 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-size: 1.5rem;
+}
+
+
+/***** HEADER *****/
+/* Sub Nav */
+
 .sub__nav {
   background-color: #0D2F3D;
   padding: 5px 20%;
@@ -26,27 +34,29 @@ html {
 .website-mode {
   order: 1;
   display: flex;
-  padding: 0 5rem;
+  margin: 2px 50px 0 0px;
 }
 
 
 .website-mode > p {
-  padding: 2px 5px;
-  color: aliceblue;
+  margin-right: 5px;
+  color: #eee;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .mode__bg {
   position: relative;
   background-color: #638FAB;
-  width: 5rem;
-  height: 2rem;
+  width: 4rem;
+  height: 1.7rem;
   border-radius: 2rem;
 }
 
 .mode__bg--inside {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 3%;
+  left: 3px;
   background-color: #051F2A;
   width: 1.5rem;
   height: 1.5rem;
@@ -54,7 +64,52 @@ html {
 }
 
 .sub-nav--lang img {
-  padding: 0 2px;
-  width: 3.5rem;
-  height: 2rem;
+  margin: 2px 5px;
+  width: 2.6rem;
+  height: 1.5rem;
+}
+
+/*Main Nav*/
+
+.navbar {
+  background-color: #2B3760;
+  padding: 3px 20%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  color: #eee;
+}
+
+.navbar-nav li a {
+  margin: 0px 5px;
+  color: #eee;
+}
+
+.btn-dark {
+  background-color: rgb(172, 215, 241);
+  color: #051F2A;
+  font-size: 13px;
+  margin-top: 1px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+.man {
+  height: 1000px;
 }
