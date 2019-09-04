@@ -21,24 +21,34 @@ body {
 /***** HEADER *****/
 /* Sub Nav */
 
-.sub__nav {
+body .sub__nav {
   background-color: #0D2F3D;
   padding: 5px 20%;
   display: flex;
+  justify-content: space-between;
   flex-direction: row-reverse;
   height: 3rem;
-
 }
 
+.social-media {
+  order: 2;
+  flex-grow: 2;
+}
+
+.social-media img {
+  margin: -7px 5px 0 0px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
 
 .website-mode {
   order: 1;
   display: flex;
-  margin: 2px 50px 0 0px;
+  margin: 2px 25px 0 0px;
 }
 
 
-.website-mode > p {
+.website-mode>p {
   margin-right: 5px;
   color: #eee;
   font-weight: 300;
@@ -55,7 +65,7 @@ body {
 
 .mode__bg--inside {
   position: absolute;
-  top: 3%;
+  top: 5%;
   left: 3px;
   background-color: #051F2A;
   width: 1.5rem;
@@ -64,7 +74,7 @@ body {
 }
 
 .sub-nav--lang img {
-  margin: 2px 5px;
+  margin: 0px 2px 7px 0;
   width: 2.6rem;
   height: 1.5rem;
 }
@@ -72,7 +82,7 @@ body {
 /*Main Nav*/
 
 .navbar {
-  background-color: #2B3760;
+  background-color: #4D92AD;
   padding: 3px 20%;
   display: flex;
   justify-content: space-between;
@@ -87,13 +97,14 @@ body {
 .navbar-nav li a {
   margin: 0px 5px;
   color: #eee;
+  margin-bottom: 2px;
 }
 
 .btn-dark {
   background-color: rgb(172, 215, 241);
   color: #051F2A;
   font-size: 13px;
-  margin-top: 1px;
+  margin-top: 3px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -104,12 +115,68 @@ body {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
 
-
-
-.man {
-  height: 1000px;
+.header {
+  height: calc(100vh - 68px);
+  background-image: radial-gradient(#4D92AD, #0D2F3D);
 }
+
+.header__main {
+  width: 100%;
+  padding: 5% 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__hero {
+  width: 31.5rem;
+  height: 23.7rem;
+  margin-right: 5%;
+}
+
+.header__main--content {
+  padding: 30px 0px 0px 0px;
+  margin-left: 5%;
+  width: 35rem;
+  color: #eee;
+  text-align: center;
+}
+
+.header__main--button .btn:nth-child(2) {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1450px) {
+  .header__main--content {
+    padding: 30px 0px 0px 0px;
+    width: 30rem;
+  }
+
+  .header__hero {
+    width: 28rem;
+    height: 21rem;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .header__main {
+    width: 100%;
+    padding: 5% 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__hero {
+    width: 25rem;
+    height: 18.7rem;
+    margin-right: 5%;
+  }
+
+  .header__main--content {
+    padding: 10px 0 0 0px;
+    width: 27rem;
+  }
