@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Lato:400,900|Oswald:300,700&display=swap');
     </style>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/all.css">
     <link rel="stylesheet" href="./css/main.css">
 
 
@@ -21,30 +22,28 @@
 <body>
     <header>
 
-        <nav class="main__nav">
+
+        <nav class="main_nav">
             <h4 class="logo">Mujtaba Alizadeh</h4>
-            <ul class="nav-list">
-                <li class="nav-list-item">About</li>
-                <li class="nav-list-item">Project</li>
-                <li class="nav-list-item">Contact</li>
+            <ul class="main_nav-list">
+                <li class="main_nav-item"><a href="#">About</a></li>
+                <li class="main_nav-item"><a href="#">Project</a></li>
+                <li class="main_nav-item"><a class="active" href="#">Contact</a></li>
             </ul>
         </nav>
 
-        <div class="header__content">
-            <h1>Mujtaba Alizadeh</h1>
-
-
-            <h3>A front-end Developer.<br>
-                I have experience with HTML, CSS, Bootstrap, and JavaScript.<br>
-                I want to learn jQuery and specialize in Frontend</h3>
+        <div class="header__text-box">
+            <div class="heading_primary">
+                <h2 class="heading_primary-main">the power of willingness</h2>
+                <p class="heading_primary-sub">
+                    <span>I have experience with</span> HTML, CSS, Bootstrap, and JavaScript</p>
+            </div>
 
 
             <div class="content--btn">
                 <button class="btn--primary" type="submit">Resume</button>
                 <button class="btn--primary" type="submit">Contact</button>
             </div>
-
-
         </div>
 
     </header>
@@ -54,25 +53,28 @@
                 <p>About me</p>
             </div>
             <p class="bg-text">About me</p>
-            <h2 class="about--about">I Always want to live my life full of learning and development</h2>
-
 
             <div class="about-content">
 
+                <div class="about-content_head">
+                    <img class="head--img" src="./img/mujtaba.jpg" alt="">
+                    <h2 class="head--about">I Always want to live my life full of learning and development</h2>
+                </div>
+
                 <div class="content--text">
-                    <h4>I Want To</h4>
+                    <h4>I want to</h4>
 
-                    <p>Become an excellent Front-end Developer and a good Designer</p>
+                    <p>I want to become an excellent Front-end Developer with higher skills on JavaScript, jquery, CSS
+                        and Bootstrap in 2 years. <br> I want also too start a small website in 1 year.</p>
 
 
-                    <h4>I Am</h4>
+                    <h4>I am</h4>
 
-                    <p>A twenty years old, with having excellent skill of patience and challenge myself to my limits. I
+                    <p>I am a twenty years old, with having excellent skill of patience and challenge myself to my
+                        limits. I
                         am a happy motivated, with clear goals and a plan to achieve my short term goals.</p>
 
                 </div>
-
-                <img class="content--img" src="./img/mujtaba.jpg" alt="">
 
                 <div class="content--skills">
                     <div class="skill-content">
@@ -107,7 +109,20 @@
                     </div>
                 </div>
             </div>
-
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank">
+                    <img class="linked" src="./assets/linked.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank">
+                    <img class="git" src="./assets/git.svg" alt="Github">
+                </a>
+                <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank">
+                    <img class="face" src="./assets/face.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank">
+                    <img class="insta" src="./assets/insta.svg" alt="Instagram">
+                </a>
+            </div>
         </section>
 
         <section class="main__personality">
@@ -118,7 +133,7 @@
 
             <div class="personality-content">
                 <div class="content-content">
-                    <img src="./img/learn.png" alt="">
+                    <i class="fas fa-laptop-code fa-2x"></i>
                     <h4>Learn</h4>
                     <p>I like to learn and develop. Investment, decision making, web development and how to interact
                         with others are some
@@ -126,37 +141,37 @@
                 </div>
 
                 <div class="content-content">
-                    <img src="./img/challenge.png" alt="">
-                    <h4>challenge</h4>
+                    <i class="fas fa-chess-pawn fa-2x"></i>
+                    <h4>Challenge</h4>
                     <p>I like to challenge myself to keep going forward towards my goals,
                         to reach my highest potential in everything I want to archive.
                         Challenging is a hobby of mine.</p>
                 </div>
 
                 <div class="content-content">
-                    <img src="./img/excersice.png" alt="">
-                    <h4>excercise</h4>
+                    <i class="fas fa-running fa-2x"></i>
+                    <h4>Excercise</h4>
                     <p>I like to work and exercise with what I have learned to keep learning,
                         and to know my disadvantages and improve them </p>
                 </div>
 
                 <div class="content-content">
-                    <img src="./img/team.png" alt="">
-                    <h4>team-work</h4>
+                    <i class="fas fa-users fa-2x"></i>
+                    <h4>Team-work</h4>
                     <p>I know the power of teamwork, I know how to work and how to be useful and helpful.
                         A great company, city or counter is build with the POWER of teamwork</p>
                 </div>
 
                 <div class="content-content">
-                    <img src="./img/positive.png" alt="">
-                    <h4>positive</h4>
+                    <i class="fas fa-seedling fa-2x"></i>
+                    <h4>Positive</h4>
                     <p>I love being positive minded this makes the challenge I face much easier to solve.
                         help others with there challenge.</p>
                 </div>
 
                 <div class="content-content">
-                    <img src="./img/strategie.png" alt="">
-                    <h4>strategy</h4>
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <h4>Strategy</h4>
                     <p>I like to have a strategy in my time and life how to spend it. It takes a great time of mine. A
                         strategy have helped me with my decision making, learnings, Challenges etc.</p>
                 </div>
@@ -166,44 +181,25 @@
             <div class="projects-nav">
                 <p>Projects</p>
             </div>
-            <p class="bg-text">Projects</p>
-
+            
             <div class="projects">
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
                 <div class="project">
-                    <div class="project-img">
-                        <span>Coming Soon</span>
-                    </div>
-
+                    <img src="./img/one.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -225,86 +221,51 @@
                 </div>
             </div>
         </section>
-        <section class="main__contact">
-            <div class="contact-nav">
+        <section class="contact_section">
+            <div class="contact_nav">
                 <p>Contact</p>
             </div>
             <p class="bg-text">Contact</p>
+            <div class="contact_content">
+                <h2 class="contact-header">Contact Me</h2>
+                <div class="contact-border"></div>
 
-            <form>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServer01">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01"
-                            placeholder="First name" value="Mark" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServer02">Last name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name"
-                            value="Otto" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationServerUsername">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                            </div>
-                            <input type="text" class="form-control is-invalid" id="validationServerUsername"
-                                placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-                            <div class="invalid-feedback">
-                                Please choose a username.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationServer03">City</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City"
-                            required>
-                        <div class="invalid-feedback">
-                            Please provide a valid city.
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationServer04">State</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State"
-                            required>
-                        <div class="invalid-feedback">
-                            Please provide a valid state.
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationServer05">Zip</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip"
-                            required>
-                        <div class="invalid-feedback">
-                            Please provide a valid zip.
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-                            Agree to terms and conditions
-                        </label>
-                        <div class="invalid-feedback">
-                            You must agree before submitting.
-                        </div>
-                    </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </form>
+                <form calss="contact_form" action="#" method="post">
+                    Your name:
+                    <input type="text" class="contact_form-text" placeholder="Jhon">
+                    Your eamil:
+                    <input type="email" class="contact_form-text" placeholder="jhonjhonsson@gmail.com">
+                    Your phone:
+                    <input type="text" class="contact_form-text" placeholder="0767676767">
+                    Your message:
+                    <textarea cols="30" rows="10" class="contact_form-text" placeholder="Your message"></textarea>
+                    <input type="submit" class="contact_form-btn" value="Send">
+                </form>
+            </div>
+
         </section>
     </main>
 
+    <footer>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank"><img class="linked"
+                    src="./assets/linked.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank"><img class="git"
+                    src="./assets/git.svg" alt="Github"></a>
+            <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank"><img class="face"
+                    src="./assets/face.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank"><img class="insta"
+                    src="./assets/insta.svg" alt="Instagram"></a>
+        </div>
+        <nav class="footer_nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#">home</a></li>
+                <li class="footer__item"><a href="#">About</a></li>
+                <li class="footer__item"><a href="#">Projects</a></li>
+                <li class="footer__item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 
 
 
@@ -317,6 +278,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="./js/main.js"></script>
 </body>
-
-</html>

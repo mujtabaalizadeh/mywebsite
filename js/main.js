@@ -1,4 +1,6 @@
-function square(number) {
-  return number*number;
-}
-console.log(square(2))
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".main_nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
