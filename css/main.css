@@ -269,6 +269,7 @@ ul {
     display: inline-block;
     padding: 5px 25px;
     border: none;
+    transition: all ease .3s 0s;
 }
 
 .btn--primary:last-child {
@@ -279,6 +280,11 @@ ul {
     text-decoration: none;
     background-color: #ffffff;
     color: #00b894;
+    transform: translateY(-5px);
+}
+
+.btn--primary:focus {
+    transform: translateY(-2px);
 }
 
 @media screen and (max-width:1850px) {
@@ -1068,11 +1074,14 @@ ul {
     box-shadow: 0 0 10px 4px #04c4ff;
 }
 
+.contact__form--text:focus::placeholder {
+     opacity: 0; 
+}
+
 textarea.contact__form--text {
     resize: none;
     height: 120px;
 }
-
 
 @media screen and (max-width:900px) {
 
