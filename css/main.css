@@ -1041,9 +1041,9 @@ ul {
     footer Contact Part
 ***************************/¨
 
-.footer--contact {
-    width: 45%;
-}
+    .footer--contact {
+        width: 45%;
+    }
 
 .footer--contact__content {
     color: #ddd;
