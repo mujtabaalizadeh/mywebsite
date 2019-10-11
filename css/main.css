@@ -53,6 +53,14 @@ header {
         Header Nav
 ***************************/
 
+h4 {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
 .main_nav {
     width: 100%;
     height: 35px;
@@ -91,7 +99,6 @@ header {
 
 .main_nav-list {
     align-self: center;
-    margin-top: 10px;
 }
 
 .main_nav-item {
@@ -168,6 +175,13 @@ header {
 
     .main_nav-list .active {
         padding: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+
+    .logo span {
+        display: none;
     }
 }
 
@@ -534,6 +548,18 @@ header {
     }
 }
 
+@media screen and (max-width:412px) {
+
+    .content--text {
+        transform: translateY(35px);
+        width: 100%;
+    }
+
+    .content--text h4 {
+        font-size: 15px;
+    }
+}
+
 /***************************
        Skills Content
 ***************************/
@@ -663,6 +689,16 @@ header {
     }
 }
 
+@media screen and (max-width:412px) {
+
+    .social-media img {
+        width: 25px;
+        height: 25px;
+        margin: 0 5px;
+        border-radius: 0px;
+    }
+}
+
 
 /***************************
     Main Personality Part
@@ -702,7 +738,7 @@ header {
     grid-column: span 4;
     position: relative;
     background-color: #283845;
-    padding: 50px 50px;
+    padding: 50px;
     transition: all .3s ease 0s;
     height: auto;
     text-align: center;
@@ -725,7 +761,6 @@ header {
 .content-content p {
     font-size: 15px;
     font-weight: 400;
-    float: right;
     padding-top: 5px;
     color: rgb(255, 255, 255);
 }
@@ -741,13 +776,15 @@ header {
 
 @media screen and (max-width:810px) {
 
-    .personality-content {    
+    .personality-content {
+        grid-template-columns: repeat(6, 1fr);
         gap: 30px;
     }
 
     .content-content {
-        grid-column: span 12;
+        grid-column: span 6;
         gap: 30px;
+        padding: 10px;
     }
 }
 
@@ -794,6 +831,12 @@ header {
     color: #fff;
 }
 
+.row {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
 .card-heading {
     text-align: center;
     font-family: 'Muli', sans-serif;
@@ -812,11 +855,17 @@ header {
     padding-right: 5px;
 }
 
+@media screen and (max-width:700px) {
+    .projects-heading {
+        text-align: center;
+    }
+}
+
 /***************************
     Main Footer Part
 ***************************/
 
-footer {
+.footer {
     width: 100%;
     height: auto;
     padding: 4% 10%;
@@ -828,6 +877,19 @@ footer {
     align-items: center;
 }
 
+@media screen and (max-width:900px) {
+    .footer {
+        padding: 10% 5%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        padding: 10% 0%;
+    }
+}
+
 /***************************
     footer Content Part
 ***************************/
@@ -835,6 +897,18 @@ footer {
 .footer-content {
     width: 45%;
 }
+
+@media screen and (max-width:900px) {
+    .footer-content {
+        order: 2;
+        width: 100%;
+        padding: 30px 10px;
+    }
+}
+
+/***************************
+    Content About Part
+***************************/
 
 .footer-content__about h3 {
     color: #04c4ff;
@@ -847,16 +921,47 @@ footer {
     
 }
 
+@media screen and (max-width:1300px) {
+
+    .footer-content__about h3 {
+        font-size: 25px;
+        
+    }
+    
+    .footer-content__about p {
+        font-size: 14px;
+        
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .footer-content__about h3 {
+        font-size: 20px;
+        
+    }
+    
+    .footer-content__about p {
+        font-size: 12px;
+        
+    }
+}
+
+/***************************
+    Content Nav Part
+***************************/
+
 .footer-content__nav {
     margin-top: 70px;
     text-align: center;
 }
+
 .content__nav--list {
     list-style: none;
 }
 
 .content__nav--item {
-    padding: 0 40px;
+    padding: 0 2%;
     display: inline-block;
 }
 
@@ -872,6 +977,21 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
+@media screen and (max-width:700px) {
+
+    .content__nav--item a {
+        font-size: 15px;
+        color: #04c4ff;
+        text-decoration: underline;
+        display: inline-block;
+        font-family: 'Muli', sans-serif;
+    }
+}
+
+/***************************
+ Content social Media Part
+***************************/
 
 .footer-social-media {
     margin-top: 20px;
@@ -903,9 +1023,18 @@ footer {
     background-color: #1774eb;
 }
 
+@media screen and (max-width:700px) {
+
+    .footer-social-media img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 /***************************
     footer Contact Part
-***************************/
+***************************/¨
+
 .footer--contact {
     width: 45%;
 }
@@ -942,4 +1071,12 @@ footer {
 textarea.contact__form--text {
     resize: none;
     height: 120px;
+}
+
+
+@media screen and (max-width:900px) {
+
+    .footer--contact {
+        width: 100%;
+    }
 }
