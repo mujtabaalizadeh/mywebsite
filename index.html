@@ -2,281 +2,308 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Lato:400,900|Oswald:300,700&display=swap');
-    </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Muli:400,700&display=swap');
+  </style>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/all.css">
-    <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="stylesheet" href="./css/main.css">
 
-
-    <title>Front-end Developer | Mujtaba Alizadeh</title>
+  <title>Front-end Developer | Mujtaba Alizadeh</title>
 </head>
 
 <body>
-    <header>
+
+  <!----------------------------------------------------Header Part---------------------------------------------------->
+  <header>
+
+    <!------------------------------------Nav Part------------------------------------>
+    <nav class="main_nav">
+      <h4 class="logo"><a href="#">Mujtaba Alizadeh</a></h4>
+      <ul class="main_nav-list">
+        <li class="main_nav-item"><a href="#about">About</a></li>
+        <li class="main_nav-item"><a href="#project">Project</a></li>
+        <li class="main_nav-item"><a class="active" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!------------------------------Header Content Part------------------------------>
+    <div class="header__text-box">
+      <div class="heading_primary">
+        <h2 class="heading_primary-main">the power of willingness</h2>
+        <p class="heading_primary-sub">
+          <span>I have experience with</span> HTML, CSS, Bootstrap, and JavaScript</p>
+      </div>
 
 
-        <nav class="main_nav">
-            <h4 class="logo">Mujtaba Alizadeh</h4>
-            <ul class="main_nav-list">
-                <li class="main_nav-item"><a href="#">About</a></li>
-                <li class="main_nav-item"><a href="#">Project</a></li>
-                <li class="main_nav-item"><a class="active" href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <div class="content--btn">
+        <button class="btn--primary" type="submit">Resume</button>
+        <button class="btn--primary" type="submit">Contact</button>
+      </div>
+    </div>
 
-        <div class="header__text-box">
-            <div class="heading_primary">
-                <h2 class="heading_primary-main">the power of willingness</h2>
-                <p class="heading_primary-sub">
-                    <span>I have experience with</span> HTML, CSS, Bootstrap, and JavaScript</p>
-            </div>
+  </header>
+  <main>
+    <!----------------------------------------------------Main About Part---------------------------------------------------->
+    <section id="about" class="main__about">
+      <p class="bg-text">About me</p>
 
+      <div class="about-content">
 
-            <div class="content--btn">
-                <button class="btn--primary" type="submit">Resume</button>
-                <button class="btn--primary" type="submit">Contact</button>
-            </div>
+        <div class="about-content_head">
+          <img class="head--img" src="./img/mujtaba.jpg" alt="">
+          <h2 class="head--about">I Always want to live my life full of learning and development</h2>
         </div>
 
-    </header>
-    <main>
-        <section class="main__about">
-            <div class="about-nav">
-                <p>About me</p>
-            </div>
-            <p class="bg-text">About me</p>
+        <div class="content--text">
+          <h4>I want to</h4>
 
-            <div class="about-content">
-
-                <div class="about-content_head">
-                    <img class="head--img" src="./img/mujtaba.jpg" alt="">
-                    <h2 class="head--about">I Always want to live my life full of learning and development</h2>
-                </div>
-
-                <div class="content--text">
-                    <h4>I want to</h4>
-
-                    <p>I want to become an excellent Front-end Developer with higher skills on JavaScript, jquery, CSS
-                        and Bootstrap in 2 years. <br> I want also too start a small website in 1 year.</p>
+          <p>I want to become an excellent Front-end Developer with higher skills on JavaScript, jquery, CSS
+            and Bootstrap in 2 years. <br> I want also too start a small website in 1 year.</p>
 
 
-                    <h4>I am</h4>
+          <h4>I am</h4>
 
-                    <p>I am a twenty years old, with having excellent skill of patience and challenge myself to my
-                        limits. I
-                        am a happy motivated, with clear goals and a plan to achieve my short term goals.</p>
+          <p>I am a twenty years old, with having excellent skill of patience and challenge myself to my
+            limits. I
+            am a happy motivated, with clear goals and a plan to achieve my short term goals.</p>
 
-                </div>
-
-                <div class="content--skills">
-                    <div class="skill-content">
-                        HTML5 <span>100%</span>
-                        <div class="skill">
-                            <div class="skill-level"></div>
-                        </div>
-                    </div>
-                    <div class="skill-content">
-                        CSS <span>80%</span>
-                        <div class="skill">
-                            <div class="skill-level" style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-content">
-                        BOOTSTRAP <span>50%</span>
-                        <div class="skill">
-                            <div class="skill-level" style="width: 50%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-content">
-                        SASS <span>30%</span>
-                        <div class="skill">
-                            <div class="skill-level" style="width: 30%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-content">
-                        JavaScript <span>20%</span>
-                        <div class="skill">
-                            <div class="skill-level" style="width: 20%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank">
-                    <img class="linked" src="./assets/linked.svg" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank">
-                    <img class="git" src="./assets/git.svg" alt="Github">
-                </a>
-                <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank">
-                    <img class="face" src="./assets/face.svg" alt="Facebook">
-                </a>
-                <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank">
-                    <img class="insta" src="./assets/insta.svg" alt="Instagram">
-                </a>
-            </div>
-        </section>
-
-        <section class="main__personality">
-            <div class="personality-nav">
-                <p>Personality</p>
-            </div>
-            <p class="bg-text">Personality</p>
-
-            <div class="personality-content">
-                <div class="content-content">
-                    <i class="fas fa-laptop-code fa-2x"></i>
-                    <h4>Learn</h4>
-                    <p>I like to learn and develop. Investment, decision making, web development and how to interact
-                        with others are some
-                        examples of what I'm trying to learn nowadays.</p>
-                </div>
-
-                <div class="content-content">
-                    <i class="fas fa-chess-pawn fa-2x"></i>
-                    <h4>Challenge</h4>
-                    <p>I like to challenge myself to keep going forward towards my goals,
-                        to reach my highest potential in everything I want to archive.
-                        Challenging is a hobby of mine.</p>
-                </div>
-
-                <div class="content-content">
-                    <i class="fas fa-running fa-2x"></i>
-                    <h4>Excercise</h4>
-                    <p>I like to work and exercise with what I have learned to keep learning,
-                        and to know my disadvantages and improve them </p>
-                </div>
-
-                <div class="content-content">
-                    <i class="fas fa-users fa-2x"></i>
-                    <h4>Team-work</h4>
-                    <p>I know the power of teamwork, I know how to work and how to be useful and helpful.
-                        A great company, city or counter is build with the POWER of teamwork</p>
-                </div>
-
-                <div class="content-content">
-                    <i class="fas fa-seedling fa-2x"></i>
-                    <h4>Positive</h4>
-                    <p>I love being positive minded this makes the challenge I face much easier to solve.
-                        help others with there challenge.</p>
-                </div>
-
-                <div class="content-content">
-                    <i class="fas fa-chart-line fa-2x"></i>
-                    <h4>Strategy</h4>
-                    <p>I like to have a strategy in my time and life how to spend it. It takes a great time of mine. A
-                        strategy have helped me with my decision making, learnings, Challenges etc.</p>
-                </div>
-            </div>
-        </section>
-        <section class="main__projects">
-            <div class="projects-nav">
-                <p>Projects</p>
-            </div>
-            
-            <div class="projects">
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/one.jpg" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="main__comments">
-            <div class="comments-nav">
-                <p>Comments</p>
-            </div>
-            <p class="bg-text">Comments</p>
-            <div class="comment-first">
-                <img src="img/john.jpg" alt="">
-                <div>
-                    <h3>John Johnson <span>Ceo, Madison</span></h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium praesentium ducimus
-                        assumenda a delectus accusamus cumque recusandae minus aut, excepturi perferendis enim ex velit
-                        esse aliquam doloremque soluta. Nesciunt obcaecati sequi repellendus temporibus reiciendis
-                        minima ipsum, tempore necessitatibus hic eaque neque quisquam repellat molestiae numquam omnis.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="contact_section">
-            <div class="contact_nav">
-                <p>Contact</p>
-            </div>
-            <p class="bg-text">Contact</p>
-            <div class="contact_content">
-                <h2 class="contact-header">Contact Me</h2>
-                <div class="contact-border"></div>
-
-                <form calss="contact_form" action="#" method="post">
-                    Your name:
-                    <input type="text" class="contact_form-text" placeholder="Jhon">
-                    Your eamil:
-                    <input type="email" class="contact_form-text" placeholder="jhonjhonsson@gmail.com">
-                    Your phone:
-                    <input type="text" class="contact_form-text" placeholder="0767676767">
-                    Your message:
-                    <textarea cols="30" rows="10" class="contact_form-text" placeholder="Your message"></textarea>
-                    <input type="submit" class="contact_form-btn" value="Send">
-                </form>
-            </div>
-
-        </section>
-    </main>
-
-    <footer>
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank"><img class="linked"
-                    src="./assets/linked.svg" alt="LinkedIn"></a>
-            <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank"><img class="git"
-                    src="./assets/git.svg" alt="Github"></a>
-            <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank"><img class="face"
-                    src="./assets/face.svg" alt="Facebook"></a>
-            <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank"><img class="insta"
-                    src="./assets/insta.svg" alt="Instagram"></a>
         </div>
-        <nav class="footer_nav">
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">home</a></li>
-                <li class="footer__item"><a href="#">About</a></li>
-                <li class="footer__item"><a href="#">Projects</a></li>
-                <li class="footer__item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </footer>
+
+        <div class="content--skills">
+          <div class="skill-content">
+            HTML5 <span>100%</span>
+            <div class="skill">
+              <div class="skill-level"></div>
+            </div>
+          </div>
+          <div class="skill-content">
+            CSS <span>80%</span>
+            <div class="skill">
+              <div class="skill-level" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-content">
+            BOOTSTRAP <span>50%</span>
+            <div class="skill">
+              <div class="skill-level" style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="skill-content">
+            SASS <span>30%</span>
+            <div class="skill">
+              <div class="skill-level" style="width: 30%"></div>
+            </div>
+          </div>
+          <div class="skill-content">
+            JavaScript <span>20%</span>
+            <div class="skill">
+              <div class="skill-level" style="width: 20%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank">
+          <img class="linked" src="./assets/linked.svg" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank">
+          <img class="git" src="./assets/git.svg" alt="Github">
+        </a>
+        <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank">
+          <img class="face" src="./assets/face.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank">
+          <img class="insta" src="./assets/insta.svg" alt="Instagram">
+        </a>
+      </div>
+    </section>
+    <!----------------------------------------------------Main Personality Part---------------------------------------------------->
+    <section class="main__personality">
+      <p class="bg-text">Personality</p>
+
+      <div class="personality-content">
+        <div class="content-content">
+          <i class="fas fa-laptop-code fa-4x"></i>
+          <h4>Learn</h4>
+          <p>I like to learn and develop. Investment, decision making, web development and how to interact
+            with others are some
+            examples of what I'm trying to learn nowadays.</p>
+        </div>
+
+        <div class="content-content">
+          <i class="fas fa-chess-pawn fa-4x"></i>
+          <h4>Challenge</h4>
+          <p>I like to challenge myself to keep going forward towards my goals,
+            to reach my highest potential in everything I want to archive.
+            Challenging is a hobby of mine.</p>
+        </div>
+
+        <div class="content-content">
+          <i class="fas fa-running fa-4x"></i>
+          <h4>Excercise</h4>
+          <p>I like to work and exercise with what I have learned to keep learning,
+            and to know my disadvantages and improve them </p>
+        </div>
+
+        <div class="content-content">
+          <i class="fas fa-users fa-4x"></i>
+          <h4>Team-work</h4>
+          <p>I know the power of teamwork, I know how to work and how to be useful and helpful.
+            A great company, city or counter is build with the POWER of teamwork</p>
+        </div>
+
+        <div class="content-content">
+          <i class="fas fa-seedling fa-4x"></i>
+          <h4>Positive</h4>
+          <p>I love being positive minded this makes the challenge I face much easier to solve.
+            help others with there challenge.</p>
+        </div>
+
+        <div class="content-content">
+          <i class="fas fa-chart-line fa-4x"></i>
+          <h4>Strategy</h4>
+          <p>I like to have a strategy in my time and life how to spend it. It takes a great time of mine. A
+            strategy have helped me with my decision making, learnings, Challenges etc.</p>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------------------Main Projects Part---------------------------------------------------->
+    <section id="project" class="main__projects">
+      <p class="bg-text">Projects</p>
+      <!-- Section heading -->
+      <h2 class="projects-heading">My Lastest Projects</h2>
+
+      <!-- Grid row -->
+      <div class="row text-center">
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          <!--Featured image-->
+          <div class="view overlay rounded z-depth-1">
+            <img src="./img/project1.jpeg" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="card-heading">Project One</h4>
+            <p class="card-text">Description of the project.
+            </p>
+            <button class="btn--primary" type="submit"><i class="fas fa-clone left"></i>View project</button>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <!--Featured image-->
+          <div class="view overlay rounded z-depth-1">
+            <img src="./img/project2.jpeg" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="card-heading">Project Two</h4>
+            <p class="card-text">Description of the project.
+            </p>
+            <button class="btn--primary" type="submit"><i class="fas fa-clone left"></i>View project</button>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6">
+          <!--Featured image-->
+          <div class="view overlay rounded z-depth-1">
+            <img src="./img/project3.jpeg" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="card-heading">Project Three</h4>
+            <p class="card-text">Description of the project.
+            </p>
+            <button class="btn--primary" type="submit"><i class="fas fa-clone left"></i>View project</button>
+          </div>
+        </div>
+        <!-- Grid column -->
+    </section>
+
+  </main>
+
+
+  <!---------------------------------------------------- Footer Part---------------------------------------------------->
+  <footer class="footer">
+
+    <!--------------------------Footer about Part-------------------------->
+    <div class="footer-content">
+      <div class="footer-content__about">
+        <h3>Mujtaba Alizadeh</h3>
+        <p>Hi this is Mujtaba. im twenty years old I started with HTML year 2017 seens then i have expanded my knowledge
+          with CSS, SASS, Bootstrap and a bit JavaScript. My Goal for next 1 year is to get better on code clener and be
+          an exelent JavaScript and Front-developer "Of Course" </p>
+      </div>
+      <nav class="footer-content__nav">
+        <ul class="content__nav--list">
+          <li class="content__nav--item"><a href="#">Home</a></li>
+          <li class="content__nav--item"><a href="#project">Project</a></li>
+          <li class="content__nav--item"><a href="#about">About</a></li>
+          <li class="content__nav--item"><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social-media">
+        <a href="https://www.linkedin.com/in/mujtaba-alizadeh-56a070191" target="_blank"><img class="linked"
+            src="./assets/linked.svg" alt="LinkedIn"></a>
+        <a href="https://github.com/mujtabaalizadeh/mywebsite" target="_blank"><img class="git" src="./assets/git.svg"
+            alt="Github"></a>
+        <a href="https://www.facebook.com/mujtba.aliuzadeh.3" target="_blank"><img class="face" src="./assets/face.svg"
+            alt="Facebook"></a>
+        <a href="https://www.instagram.com/mujtabaalizadeh0" target="_blank"><img class="insta" src="./assets/insta.svg"
+            alt="Instagram"></a>
+      </div>
+    </div>
+
+    <!--------------------------Footer Contact Part-------------------------->
+    <div id="contact" class="footer--contact">
+
+      <div class="footer--contact__content">
+        <form class="footer--contact__form" action="http://www.softstudio.se/sendEmail.php" method="POST">
+          Your name:
+          <input type="text" class="contact__form--text" name="firstname" placeholder="Jhon">
+          Your eamil:
+          <input type="email" name="from" class="contact__form--text" placeholder="jhonjhonsson@email.now">
+          Your message:
+          <textarea name="subject" cols="30" rows="10" class="contact__form--text" placeholder="Hi"></textarea>
+          <input type="hidden" name="to" value="mujtabaalizadeh@gmail.com">
+          <input type="submit" class="btn--primary" value="Send">
+        </form>
+      </div>
+
+    </div>
+
+  </footer>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./js/main.js"></script>
 </body>
