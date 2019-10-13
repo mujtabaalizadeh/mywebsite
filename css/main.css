@@ -1085,6 +1085,6 @@ textarea.contact__form--text {
 
 @media screen and (max-width:900px) {
     .footer--contact {
-        width: 95%;
+        width: 100%;
     }
 }
