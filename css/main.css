@@ -288,7 +288,11 @@ ul {
 }
 
 @media screen and (max-width:1850px) {
-
+    
+    .heading_primary-main {
+        font-size: 40px;
+    }
+    
     .header__text-box {
         top: 40%;
     }
