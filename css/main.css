@@ -1087,6 +1087,14 @@ textarea.contact__form--text {
     height: 120px;
 }
 
+.footer--contact__form btn--primary {
+    margin-left= 0;
+}
+
+.footer--contact__form btn--primary:hover {
+    color: #04c4ff;
+}
+
 @media screen and (max-width:900px) {
     .footer--contact {
         width: 100%;
