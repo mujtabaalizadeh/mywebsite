@@ -146,7 +146,7 @@ ul {
 }
 
 .main_nav-item a:hover {
-  color: #00b894;
+  color: #04c4ff;
 }
 
 @media screen and (max-width:900px) {
@@ -294,7 +294,7 @@ ul {
 .btn--primary:hover {
   text-decoration: none;
   background-color: #ffffff;
-  color: #00b894;
+  color: #04c4ff;
   transform: translateY(-5px);
 }
 
